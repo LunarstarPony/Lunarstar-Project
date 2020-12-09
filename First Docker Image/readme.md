@@ -53,6 +53,6 @@ P.S. Remember to change dockerimagename to the name you previous entered and cha
 
 10, Head into browser and enter `localhost:port` to see if it's working!
 
-![alt text](https://github.com/LunarstarPony/Lunarstar-Project/blob/main/First-Docker-Image/1.png?raw=true)
+![alt text](https://github.com/LunarstarPony/Lunarstar-Project/blob/main/First%20Docker%20Image/1.png?raw=true)
 
 11, Success!!!!
