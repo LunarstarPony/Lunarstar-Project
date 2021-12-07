@@ -35,12 +35,22 @@ sudo apt-get install libmariadbclient-dev  for MariaDB DataBases
 sudo apt install libmysqlclient-dev  for MySQL DataBases
 sudo python3 -m pip install pymysql
 ```
-10, Modify MySQL config files using `sudo vim /etc/mysql/my.cnf` and add these following lines at the end.
+10, Modify MySQL config files using `sudo vim /etc/mysql/my.cnf` and add these following lines at the end. (Naw No need)
 ```
 [mysqld]
 init_connect='SET NAMES utf8'
 character-set-server=utf8
 collation-server=utf8_bin
+```
+P.S Set Character set if needed
+```
+SET character_set_system = 'utf8';
+SET character_set_server = 'latin1';
+SET character_set_results = 'utf8';
+SET character_set_filesystem = 'binary';
+SET character_set_database = 'latin1';
+SET character_set_connection = 'utf8';
+SET character_set_client = 'utf8';
 ```
 11, Restart mySQL using `sudo systemctl restart mysql`
 
