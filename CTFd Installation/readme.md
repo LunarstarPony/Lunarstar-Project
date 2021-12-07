@@ -57,7 +57,11 @@ SET character_set_client = 'utf8';
 
 13, Create DataBase using `create database ctfd;`.
 
-14, Create a new DataBase user and grand all permission using `grant all privileges on *.* to 'EnterYourUsername'@'%' identified by 'EnterYourPassword';` .
+14, Create a new DataBase user and grand all permission using 
+`CREATE USER 'ksu'@'%' IDENTIFIED BY 'PASSWORD';`
+`GRANT ALL PRIVILEGES ON *.* TO 'ksu'@'%' IDENTIFIED BY 'PASSWORD';`
+`FLUSH PRIVILEGES;`
+`grant all privileges on *.* to 'EnterYourUsername'@'%' identified by 'EnterYourPassword';` .
 
 P.S Remember to change EnterYourUsername and EnterYourPassword to your own DataBase Username and Password.
 
