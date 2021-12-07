@@ -30,7 +30,7 @@ pip3 install -r requirements.txt
 9, Install Requirement using following commands.
 ```
 sudo apt install mysql-server
-sudo apt install mysql-client
+sudo apt install mariadb-server
 sudo apt-get install libmariadbclient-dev  for MariaDB DataBases
 sudo apt install libmysqlclient-dev  for MySQL DataBases
 sudo python3 -m pip install pymysql
