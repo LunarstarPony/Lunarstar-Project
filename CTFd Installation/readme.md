@@ -44,7 +44,6 @@ collation-server=utf8_bin
 ```
 P.S Set Character set if needed
 ```
-SET character_set_system = 'utf8';
 SET character_set_server = 'latin1';
 SET character_set_results = 'utf8';
 SET character_set_filesystem = 'binary';
